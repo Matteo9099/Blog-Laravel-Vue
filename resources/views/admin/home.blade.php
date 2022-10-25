@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('admin.layouts.base')
 
 @section('content')
 <div class="container">
@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    Ciao {{$user->name}} id #{{$user->id}}
                 </div>
             </div>
         </div>
